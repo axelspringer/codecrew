@@ -1,0 +1,6 @@
+# action.yml
+name: 'codecrew Data Pipeline'
+description: 'Docker based data updater that parses git logs as the data used in codecrew'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

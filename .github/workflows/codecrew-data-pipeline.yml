@@ -1,0 +1,31 @@
+name: codecrew data pipeline
+on:
+  push:
+  schedule:
+    - cron: '*/10 * * * *'
+
+env:
+  CODECREW_TOKEN: ${{ secrets.CODECREW_TOKEN }}
+  DATA_REPO_TOKEN: ${{ secrets.ALL_REPOS_ACCESS_TOKEN }}
+
+jobs:
+  build:
+    name: Data Pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+
+      - name: Set Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+          registry-url: "https://npm.pkg.github.com"
+
+      - name: Install dependencies
+        working-directory: ./data-pipeline
+        run: yarn install
+
+      - name: Run data pipeline
+        working-directory: ./data-pipeline
+        run: yarn run-data-pipeline

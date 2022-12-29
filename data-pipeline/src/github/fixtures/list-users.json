@@ -1,0 +1,21 @@
+{
+    "data": {
+        "organization": {
+            "membersWithRole": {
+                "nodes": [
+                    {
+                        "name": "Lennard Timm",
+                        "login": "lenn4rd",
+                        "email": "hello@lennardtimm.de",
+                        "avatarUrl": "https://avatars.githubusercontent.com/u/44819?u=8870828a1223d299ae1f9e0dde37506f8f6cdabc&v=4",
+                        "bio": "Oscillating between data & analytics, DevOps & automation and software engineering. But mostly data.\r\n\r\nAvailable for freelance contracts.",
+                        "bioHTML": "<div>Oscillating between data &amp; analytics, DevOps &amp; automation and software engineering. But mostly data.\n\nAvailable for freelance contracts.</div>",
+                        "location": "Berlin, Germany",
+                        "resourcePath": "/lenn4rd",
+                        "url": "https://github.com/lenn4rd"
+                    }
+                ]
+            }
+        }
+    }
+}

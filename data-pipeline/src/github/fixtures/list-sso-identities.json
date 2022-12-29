@@ -1,0 +1,39 @@
+{
+    "organization": {
+        "samlIdentityProvider": {
+            "ssoUrl": "https://login.microsoftonline.com/xxxx-xxxx-xxxx-xxxx-3f679c0f3b12/saml2",
+            "externalIdentities": {
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOAAxITQ==",
+                    "hasNextPage": true,
+                    "hasPreviousPage": false,
+                    "startCursor": "Y3Vyc29yOnYyOpHOAAvsxw=="
+                },
+                "edges": [
+                    {
+                        "node": {
+                            "guid": "3d8393ea-4364-11ea-946d-cd3de40d662c",
+                            "samlIdentity": {
+                                "nameId": "yyyy@axelspringer.com"
+                            },
+                            "user": {
+                                "login": "AndreasPrang"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "guid": "cd839bde-4364-11ea-8026-d9a0b9094615",
+                            "samlIdentity": {
+                                "nameId": "xxxxxx@axelspringer.com"
+                            },
+                            "user": {
+                                "login": "preventdefault"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

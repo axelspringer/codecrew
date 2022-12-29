@@ -1,0 +1,31 @@
+{
+    "data": {
+        "organization": {
+            "teams": {
+                "nodes": [
+                    {
+                        "avatarUrl": "https://avatars.githubusercontent.com/t/2699602?s=400&v=4",
+                        "teamsUrl": "https://github.com/orgs/spring-media/teams/red/teams",
+                        "description": "",
+                        "createdAt": "2018-03-23T10:02:52Z",
+                        "name": "RED",
+                        "members": {
+                            "nodes": [
+                                {
+                                    "email": "xxxxxxxxxx@googlemail.com",
+                                    "login": "jami",
+                                    "avatarUrl": "https://avatars.githubusercontent.com/u/225667?u=4d8bec1ce8fa02598c1bdcb586ea5676e63478d0&v=4"
+                                },
+                                {
+                                    "email": "",
+                                    "login": "AndreasPrang",
+                                    "avatarUrl": "https://avatars.githubusercontent.com/u/1097566?u=779117948c534625be2b0624a808beff9353456d&v=4"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

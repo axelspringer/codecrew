@@ -1,0 +1,17 @@
+{
+    "Ext": {
+        ".json": {
+            "Thu, 28 Apr 2022 16:39:53 +0200": 2
+        }
+    },
+    "Dep": {
+        "EcmaScript": {
+            "@material-ui/core@4.12.3": {
+                "Fri, 29 Apr 2022 09:38:50 +0200": 13
+            }
+        }
+    },
+    "Usernames": [
+        "github-username"
+    ]
+}

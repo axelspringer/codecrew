@@ -1,0 +1,32 @@
+{
+    "data": {
+        "organization": {
+            "repositories": {
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOA5TNoQ==",
+                    "hasNextPage": true
+                },
+                "nodes": [
+                    {
+                        "name": "MT_Musiktitel",
+                        "nameWithOwner": "spring-media/MT_Musiktitel",
+                        "url": "https://github.com/spring-media/MT_Musiktitel",
+                        "description": "Repo für rollingstone.de, metal-hammer und musikexpress.de - Hauptseiten, Shops und Foren",
+                        "sshUrl": "git@github.com:spring-media/MT_Musiktitel.git",
+                        "defaultBranchRef": {
+                            "name": "master"
+                        },
+                        "visibility": "PRIVATE",
+                        "stargazerCount": 1,
+                        "pushedAt": "2022-08-22T09:45:00Z",
+                        "isEmpty": false,
+                        "isLocked": false,
+                        "isTemplate": false,
+                        "isArchived": false,
+                        "isDisabled": false
+                    }
+                ]
+            }
+        }
+    }
+}
