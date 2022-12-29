@@ -4,7 +4,7 @@
 
 codecrew makes it easy to discover the software developers inside your Github organization based on techstack. It auto-generates data utilizing [sklls cli](https://github.com/axelspringer/sklls-cli) which uses git-blames to generate tech-usage profiles for every member of a Github organization.  
 
-> The purpose of this proof-of-concept was to figure out how to better connect software developers at Axel Springer based on tech-skills. [Read more in our blogpost]() TODO!
+> The purpose of this proof-of-concept was to figure out how to better connect software developers at Axel Springer based on tech-skills. [Read more in our blogpost](https://medium.com/axel-springer-tech/do-your-git-blames-show-your-technical-skills-yes-and-no-2da5b88315e6)
 
 # Demo
 ![codecrew demo](/docs/codecrew-demo.gif)
